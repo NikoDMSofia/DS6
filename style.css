@@ -48,30 +48,227 @@ header h3 {
 }
 header h1 {
     color: white;
-    /* font-size: 2.8em; */
-    max-width: 13em;
-    letter-spacing: -.5px;
+    font-size: 3.8em;
+    font-family: "Alumni Sans", sans-serif;
+    max-width: 10em;
     text-transform: uppercase;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    line-height: 1;
+}
+header button {
+    color: white;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1px;
+    background-color: #A9242B;
+    padding: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+header button:hover {
+    background-color: #a9242baf;
 }
 
-@media (max-width: 860px) {
-    header .flex-center {
-    height: 80vh;
+main-head {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.none {
-    display: none;
+
+main-head .red-box {
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 100;
 }
+
+main-head .white-box{
+    width: 30em;
+    height: 5em;
+    background-color: white;
 }
-/* @media (max-width: 450px) {
-    header h3 {
-    font-size: .6em;
+main-head .red-box{
+    width: 30em;
+    height: 5em;
+    background-color: #A9242B;
 }
-    header h1 {
-        font-size: 2em;
+main-head span{
+    font-weight: 700;
+    font-size: 1.2em;
+    color: white;
+}
+
+main-head .flexSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main-head .phone {
+    color: #A9242B;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+main-head .email {
+    color: black;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+
+.about-trainer {
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1em 2em;
+}
+.about-trainer p{
+    max-width: 35em;
+    color: rgb(150, 150, 150);
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: .8px;
+}
+
+.head-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head-line-container .head-line {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 4em;
+    color: #18191A;
+    font-weight: 800;
+    -webkit-text-stroke: .3px white;
+}
+.head-line-container .sub-line {
+    margin-top: -.2em;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 3em;
+    color: #A9242B;
+    font-weight: 800;
+}
+
+.privet-gym-online-sections {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.privet-gym-online-sections section{
+    height: 20em;
+    width: 22em;
+}
+.privet-gym-online-sections .online{
+    background-image: url(images/1st-page/online.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.privet-gym-online-sections .gym{
+    background-image: url(images/1st-page/atGym.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.privet-gym-online-sections .privet{
+    background-image: url(images/1st-page/atHome.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.privet-gym-online-sections .privet::before, .gym::before, .online::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #00000096;
+}
+
+
+.online-container, .gym-container, .privet-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.team {
+    position: relative;
+    color: rgb(155, 148, 148);
+    font-weight: 800;
+}
+
+    
+
+
+.red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+}
+.white {
+    border: 1px solid white;
+}
+
+@media (max-width: 960px) {
+    main-head .white-box{
+        width: 80%;
+        height: 5em;
+        background-color: white;
+}
+    main-head .red-box{
+        width: 80%;
+        height: 5em;
+        background-color: #A9242B;
+}
+
+
+}
+
+
+@media (max-width: 860px) {
+    header .flex-center {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
-} */
+    .none {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    main-head .white-box{
+        width: 100%;
+        height: 5em;
+        background-color: white;
+    } 
+    main-head .red-box{
+        width: 100%;
+        height: 5em;
+        background-color: #A9242B;
+    }
+    .about-trainer p{
+        font-size: 17px;
+    }
+
+    .head-line-container .head-line {
+        font-size: 3em;
+    }
+    .head-line-container .sub-line {
+        font-size: 2.5em;
+    }
+}
