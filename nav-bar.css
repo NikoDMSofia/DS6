@@ -32,7 +32,7 @@ body {
     --text-color: #CCC;
 }
 nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100px;
@@ -100,12 +100,12 @@ nav .nav-bar .logo img{
 }
 
 .registration-btn {
-    background-color: #A9242B;
+    background-color: white;
     border-radius: 1em;
-    padding: .1em 1em;
+    padding: .2em 1.1em;
     a {
         font-size: 1em;
-        color: var(--text-color);
+        color: #A9242B;
         text-decoration: none;
     }
 }
