@@ -2,40 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="logo" href="images/logo/DS-Logo-red.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Be Better</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav-bar.css">
+    <title>DS-training</title>
 </head>
 <body>
-   <div class="container">
-    <div class="head_content">
-        <img src="images/bacground.jpg" alt="">
-        <div class="face_image">
-            <img src="images/948FD153-CB04-4E1B-B751-A3A177F3717B.PNG" alt="">
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <img style="width: 100px;"  src="images/LOGO/DS-Logo-red.png" alt="">
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#"><img src="images/LOGO/DS-Logo-red.png" alt=""></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">начало</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">график</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">контакт</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="registration-btn" >
+                    <a href="#">влез</a>
+                </div>
+                
+            </div>
         </div>
-    </div>
-    <div class="headl_line"></div>
-    <div class="monday">
-        <div class="chest_img"></div>
-        <div class="link_img"></div>
-    </div>
-    <div class="tuesday">
-        <div class="back_img"></div>
-        <div class="link_img"></div>
-    </div>
-    <div class="wednesday">
-        <div class="shoulders_img"></div>
-        <div class="link_img"></div>
-    </div>
-    <div class="thursday">
-        <div class="legs_img"></div>
-        <div class="link_img"></div>
-    </div>
-    <div class="friday">
-        <div class="hands_img"></div>
-        <div class="link_img"></div>
-    </div>
-    <div class="saturday"></div>
-    <div class="sunday"></div>
+    </nav>
+
+
+
+    <header>
+        <div class="head-bg">
+            <div class="head-content flex-center">
+                <div class="head-title" style="background-color: red;"></div>
+                <div class="head-title head-sub-title head-btn ">
+                    <div class="sub-title"><h3>оформи твоето тялото</h3></div>
+                    <div class="title"><h1>изгради перфектното здраво тяло</h1></div>
+                    <div class="btn"><button>научи повече</button></div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+      
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+    </script>
 </body>
 </html>
