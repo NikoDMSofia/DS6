@@ -185,57 +185,167 @@ main-head .email {
     position: relative;
 }
 
-.privet-gym-online-sections .privet::before, .gym::before, .online::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #00000096;
-}
 
 
 .online-container, .gym-container, .privet-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
 .team {
-    position: relative;
-    color: rgb(155, 148, 148);
-    font-weight: 800;
+    width: 100%;
+    padding: 1em;
+    color: rgb(180, 51, 51);
+    font-weight: 700;
 }
 
+.button {
+    color: white;
+    text-transform: uppercase;
+    font-size: .6em;
+    letter-spacing: 1px;
+    background-color: #A9242B;
+    border-radius: 5px;
+    padding: 1.1em;
+    text-decoration: none;
+    margin-bottom: 5em ;
+}
+
+.aboveAll {
+    margin-top: 5em;
+    background-image: url(images/ali-choubin-UdNmea6BA8w-unsplash.jpg);
+    height: 50em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em ;
+}
+.aboveAll-container-flexColumns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboveAll-sub-text, .aboveAll-main-text {
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    text-align: center;
+}
+.aboveAll-sub-text {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.432);
+}
+.aboveAll-main-text {
+    font-size: 3.5em;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 1em;
+    line-height: 1;
+}
+
+.aboveAll-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.aboveAll-boxOne, .aboveAll-boxTwo, .aboveAll-boxThree {
+    height: 15em;
+    width: 420px;
+    color: white;
+    background-color: #a9242bb7;
+    border-radius: 5px;
+}
+.aboveAll-boxOne, .aboveAll-boxTwo, .aboveAll-boxThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.first-row {
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 2.1em;
+}
+.sec-row {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 2.2em;
+    color: #ffffff;
+}
+
+
+
+
+
 
 
 .red {
     border: 1px solid red;
 }
-.green {
-    border: 1px solid green;
-}
 .white {
     border: 1px solid white;
 }
+.purple {
+    border: 1px solid purple;
+}
+.green {
+    border: 1px solid green;
+}
 
+@media (max-width: 1070px) {
+    .aboveAll-boxes {
+        display: flex;
+        justify-content: center;
+        gap: .7em;
+        flex-wrap: wrap;
+}
+    .aboveAll-sub-text {
+        font-size: 1.5em;
+        font-weight: 100;
+        color: rgba(255, 255, 255, 0.432);
+}
+
+    .aboveAll-boxOne, .aboveAll-boxTwo, .aboveAll-boxThree {
+        height: 11em;
+        width: 100%;
+        color: white;
+}
+
+    .first-row {
+        font-size: 2.1em;
+        margin-top: .1em;
+}
+    .sec-row {
+        font-size: 2em;
+    }
+}
 @media (max-width: 960px) {
     main-head .white-box{
         width: 80%;
         height: 5em;
         background-color: white;
-}
+    }
     main-head .red-box{
         width: 80%;
         height: 5em;
         background-color: #A9242B;
+    }
 }
-
-
-}
-
 
 @media (max-width: 860px) {
     header .flex-center {
@@ -271,4 +381,13 @@ main-head .email {
     .head-line-container .sub-line {
         font-size: 2.5em;
     }
+}
+@media (max-width: 420px) {
+    .aboveAll-sub-text {
+    font-size: 1.1em;
+}
+    .aboveAll-main-text {
+        font-size: 2.5em;
+    
+}
 }
