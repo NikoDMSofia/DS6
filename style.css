@@ -147,6 +147,7 @@ main-head .email {
     -webkit-text-stroke: .3px white;
     margin-top: -.2em;
 }
+
 .head-line-container .sub-line {
     font-family: "Alumni Sans", sans-serif;
     font-size: 3em;
@@ -300,6 +301,124 @@ main-head .email {
 
 
 
+
+
+.feedback-container-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-container {
+    display: grid;
+    grid-template-columns:  repeat(  auto-fill/ 10, 150px  );
+    background-color: dodgerblue;
+    padding: 10px;;
+    background-color: rgba(30, 143, 255, 0);
+    padding: 10px;
+}
+
+.image-1 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/1.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-11 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/11.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-2 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/111.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-22 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/1111.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-3 {
+    height: 250px;
+    width: 200px;
+    background-image: url(images/1st-page/feedback/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image-33 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/2.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-4 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/22.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-44 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/222.png);
+    background-position: top;
+    background-size: cover;
+}
+.image-5 {
+    height: 250px;
+    width: 100px;
+    background-image: url(images/1st-page/feedback/22.png);
+    background-position: top;
+    background-size: cover;
+}
+
+
+
+.slider-head-line {
+    margin-top: 1em;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 4em;
+    color: #18191A;
+    font-weight: 800;
+    -webkit-text-stroke: .3px white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.box-middle-container {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.logos{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.logos-slide {
+    display: inline-block;
+    animation: slide 20s linear infinite;
+}
+.logos-slide img  {
+    height: 20em;
+    width: 15em;
+    object-fit: cover;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
 
 
