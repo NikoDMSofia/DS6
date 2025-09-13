@@ -160,7 +160,7 @@ main-head .email {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
 }
 .privet-gym-online-sections section{
     height: 20em;
@@ -233,6 +233,9 @@ main-head .email {
     align-items: center;
     padding: 0 1em ;
 }
+.aboveAll img {
+    width: 50px;
+}
 .aboveAll-container-flexColumns {
     display: flex;
     justify-content: center;
@@ -260,7 +263,7 @@ main-head .email {
 .aboveAll-boxes {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 4em;
     flex-wrap: wrap;
 }
 .aboveAll-boxOne, .aboveAll-boxTwo, .aboveAll-boxThree {
@@ -283,16 +286,15 @@ main-head .email {
     text-transform: uppercase;
     font-family: "Alumni Sans", sans-serif;
     font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 2.1em;
+    font-size: 1.5em;
 }
 .sec-row {
     text-align: center;
     text-transform: uppercase;
     font-family: "Alumni Sans", sans-serif;
     font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 2.2em;
+    /* letter-spacing: 1px; */
+    font-size: 1.5em;
     color: #ffffff;
 }
 
@@ -319,7 +321,7 @@ main-head .email {
     .aboveAll-boxes {
         display: flex;
         justify-content: center;
-        gap: .7em;
+        gap: 1.5em;
         flex-wrap: wrap;
 }
     .aboveAll-sub-text {
@@ -330,16 +332,16 @@ main-head .email {
 
     .aboveAll-boxOne, .aboveAll-boxTwo, .aboveAll-boxThree {
         height: 11em;
-        width: 100%;
+        width: 90%;
         color: white;
 }
 
     .first-row {
-        font-size: 2.1em;
-        margin-top: .1em;
+        margin-top: .5em;
 }
     .sec-row {
-        font-size: 2em;
+        font-size: 1.5em;
+        font-weight: 300;
     }
 }
 @media (max-width: 960px) {
