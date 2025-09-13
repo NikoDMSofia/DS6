@@ -73,7 +73,7 @@ main-head {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 main-head .red-box {
