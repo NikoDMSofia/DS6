@@ -223,7 +223,7 @@ main-head .email {
 .aboveAll {
     margin-top: 5em;
     background-image: url(images/ali-choubin-UdNmea6BA8w-unsplash.jpg);
-    height: 50em;
+    height: 40em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -256,19 +256,19 @@ main-head .email {
     font-size: 3.5em;
     color: #ffffff;
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     line-height: 1;
 }
 
 .aboveAll-boxes {
     display: flex;
     justify-content: center;
-    gap: 4em;
+    gap: 2em;
     flex-wrap: wrap;
 }
 .aboveAll-boxOne, .aboveAll-boxTwo, .aboveAll-boxThree {
     height: 15em;
-    width: 420px;
+    width: 320px;
     color: white;
     background-color: #a9242bb7;
     border-radius: 5px;
@@ -285,15 +285,15 @@ main-head .email {
     text-align: center;
     text-transform: uppercase;
     font-family: "Alumni Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.5em;
+    letter-spacing: .5px;
 }
 .sec-row {
     text-align: center;
     text-transform: uppercase;
     font-family: "Alumni Sans", sans-serif;
-    font-weight: 600;
-    /* letter-spacing: 1px; */
+    font-weight: 300;
     font-size: 1.5em;
     color: #ffffff;
 }
@@ -318,6 +318,11 @@ main-head .email {
 }
 
 @media (max-width: 1070px) {
+    .aboveAll {
+    margin-top: 5em;
+    background-image: url(images/ali-choubin-UdNmea6BA8w-unsplash.jpg);
+    height: 50em 
+    }
     .aboveAll-boxes {
         display: flex;
         justify-content: center;
@@ -339,10 +344,7 @@ main-head .email {
     .first-row {
         margin-top: .5em;
 }
-    .sec-row {
-        font-size: 1.5em;
-        font-weight: 300;
-    }
+    
 }
 @media (max-width: 960px) {
     main-head .white-box{
