@@ -155,6 +155,7 @@ main-head .email {
     font-weight: 800;
 }
 
+
 .privet-gym-online-sections {
     margin-top: 3em;
     display: flex;
@@ -381,11 +382,8 @@ main-head .email {
     background-position: top;
     background-size: cover;
 }
-
-
-
 .slider-head-line {
-    margin-top: 1em;
+    margin-top: 2em;
     font-family: "Alumni Sans", sans-serif;
     font-size: 4em;
     color: #18191A;
@@ -394,8 +392,20 @@ main-head .email {
     text-align: center;
     letter-spacing: 2px;
 }
+.slider-sub-head-line {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 3em;
+    color: #A9242B;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -.5em;
+    span {
+        font-size: .6em;
+    }
+}
+
 .box-middle-container {
-    margin-top: 5em;
+    margin-top: 4em;
     margin-bottom: 5em;
 }
 .logos{
@@ -411,6 +421,93 @@ main-head .email {
     width: 15em;
     object-fit: cover;
 }
+
+
+.input {
+    position: absolute;
+}
+
+.scene {
+    width: 1440px;
+    max-width: 100%;
+    min-height: 60vh;
+    margin: auto;
+    padding: 40px 30px;
+}
+
+.card-wrap {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.card, .front, .back, .card-photo{
+    width: 100%;
+    height: 100%;
+}
+
+.card-face {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s, box-shadow .4s;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    border-radius: 10px;
+}
+
+.card-photo {
+    object-fit: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+}
+
+.back {
+    transform: rotateY( 180deg );
+    text-align: center;
+    color: rgb(207, 207, 207);
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.back p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flipcard {
+    opacity: 0;
+}
+
+input:checked + .card {
+    transform: rotateY( 180deg );
+}
+
+@media screen and (min-width: 960px) {
+    .scene {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+
+
+
 @keyframes slide {
     from {
         transform: translateX(0);
