@@ -1283,6 +1283,11 @@ footer {
 }
 
 @media (max-width: 860px) {
+    main-head .red-box{
+        height: 6em;
+        background-color: #A9242B;
+        font-size: .8em;
+    }
     main-head .phone {
         font-weight: 700;
         font-size: 1.2em;
@@ -1334,7 +1339,6 @@ footer {
         width: 90%;
         height: 6em;
         background-color: #A9242B;
-        font-size: .8em;
     }
     .about-trainer p{
         font-size: 17px;
