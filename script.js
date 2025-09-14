@@ -23,7 +23,7 @@ var	testim = document.getElementById("testim"),
     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
     testimLeftArrow = document.getElementById("left-arrow"),
     testimRightArrow = document.getElementById("right-arrow"),
-    testimSpeed = 4500,
+    testimSpeed = 15000,
     currentSlide = 0,
     currentActive = 0,
     testimTimer,
@@ -125,4 +125,9 @@ window.onload = function() {
 			
 		})
 }
+
+
+
+
+
     

@@ -1171,6 +1171,9 @@ input:checked + .card {
     }
 }
 
+footer {
+    height: 50em;
+}
 
 
 .red {
@@ -1185,6 +1188,8 @@ input:checked + .card {
 .green {
     border: 1px solid green;
 }
+
+
 
 @media (max-width: 1070px) {
     .aboveAll {
@@ -1295,3 +1300,4 @@ input:checked + .card {
         top: 26%;
     }
 }
+
