@@ -1125,7 +1125,6 @@ input:checked + .card {
 
 
 .readyToStart {
-    /* padding: 0 1em; */
     margin-top: 5em;
     height: 30em;
     background-image: url(images/1st-page/ready.png);
@@ -1140,6 +1139,7 @@ input:checked + .card {
     text-align: center;
 }
 .readyToStart-title {
+    padding: 0 1em;
     font-size: 3em;
     color: white;
 }
@@ -1152,6 +1152,21 @@ input:checked + .card {
     border-radius: 5px;
     padding: 1.6em;
     text-decoration: none;
+}
+
+
+.healthy-lifestyle-container {
+    text-align: center;
+    padding: 1em;
+}
+.healthy-lifestyle-container-text {
+    color: rgb(148, 148, 148);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    span {
+        color: #A9242B;
+        font-weight: 600;
+    }
 }
 
 
@@ -1227,6 +1242,16 @@ input:checked + .card {
     .none {
         display: none;
     }
+    .healthy-lifestyle-container-text {
+        font-size: 1.3em;
+    }
+    .readyToStart-title {
+        font-size: 2em;
+    }
+    .readyToStart-button {
+        font-size: .7em;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -1252,6 +1277,9 @@ input:checked + .card {
     }
     .testim {
         top: 25%;
+    }
+    .healthy-lifestyle-container-text {
+        font-size: 1em;
     }
 }
 @media (max-width: 420px) {
