@@ -9,7 +9,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    padding-top: 6em;
+}
 header {
     height: 80vh;
 }
@@ -40,11 +42,20 @@ header .flex-center {
     flex: 1;
 }
 header h3 {
+    font-family: "Alumni Sans", sans-serif;
     color: white;
-    font-size: .75em;
+    font-size: 1.2em;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 4em;
+    line-height: .8;
+    margin-bottom: 2em;
+    span {
+        font-family: "Alumni Sans", sans-serif;
+        color: #A9242B;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 1;
+    }
 }
 header h1 {
     color: white;
@@ -52,7 +63,7 @@ header h1 {
     font-family: "Alumni Sans", sans-serif;
     max-width: 10em;
     text-transform: uppercase;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     line-height: 1;
 }
 header a {
