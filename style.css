@@ -15,7 +15,7 @@ header {
 }
 
 header .head-bg {
-    height: 80vh;
+    height: 89vh;
     width: 100%;
     background-image: url(images/1st-page/head/headerBG.png), url(images/1st-page/head/headerBG.png) ;
     background-position: center;
@@ -30,7 +30,7 @@ header .head-content {
     padding: 12%;
 }
 header .flex-center {
-    height: 80vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +74,7 @@ main-head {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
+    margin: 2em;
 }
 
 main-head .red-box {
@@ -84,13 +85,13 @@ main-head .red-box {
 }
 
 main-head .white-box{
-    width: 30em;
-    height: 5em;
+    width: 35em;
+    height: 7em;
     background-color: white;
 }
 main-head .red-box{
-    width: 30em;
-    height: 5em;
+    width: 35em;
+    height: 7em;
     background-color: #A9242B;
 }
 main-head span{
@@ -1211,11 +1212,32 @@ footer {
 
 
 
+@media (max-width: 1200px) {
+    main-head .white-box{
+        width: 30em;
+        height: 6em;
+        background-color: white;
+    }
+    main-head .red-box{
+        width: 30em;
+        height: 6em;
+    }
+
+}
 @media (max-width: 1070px) {
+    main-head .white-box{
+        width: 28em;
+        height: 5.5em;
+        background-color: white;
+    }
+    main-head .red-box{
+        width: 28em;
+        height: 5.5em;
+    }
     .aboveAll {
-    margin-top: 5em;
-    background-image: url(images/ali-choubin-UdNmea6BA8w-unsplash.jpg);
-    height: 50em 
+        margin-top: 5em;
+        background-image: url(images/ali-choubin-UdNmea6BA8w-unsplash.jpg);
+        height: 50em 
     }
     .aboveAll-boxes {
         display: flex;
@@ -1248,12 +1270,24 @@ footer {
     }
     main-head .red-box{
         width: 80%;
-        height: 5em;
         background-color: #A9242B;
     }
 }
 
 @media (max-width: 860px) {
+    main-head .phone {
+        font-weight: 700;
+        font-size: 1.2em;
+}
+main-head .email {
+        font-weight: 300;
+        font-size: 1em;
+}
+
+    main-head span{
+        font-weight: 700;
+        font-size: 1.2em;
+}
     .aboveAll {
     margin-top: 5em;
     background-image: url(images/ali-choubin-UdNmea6BA8w-unsplash.jpg);
