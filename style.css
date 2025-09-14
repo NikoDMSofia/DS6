@@ -1172,8 +1172,28 @@ input:checked + .card {
 }
 
 footer {
-    height: 50em;
+    padding: 2em;
+    height: 20em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container img {
+    width: 50px;
+}
+.footer-section-one-text {
+    max-width: 10em;
+    text-align: justify;
+}
+.contact-contacts {
+    display: flex;
+}
+
 
 
 .red {
