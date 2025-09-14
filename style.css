@@ -48,7 +48,7 @@ header h3 {
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: .8;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     span {
         font-family: "Alumni Sans", sans-serif;
         color: #A9242B;
@@ -63,7 +63,7 @@ header h1 {
     font-family: "Alumni Sans", sans-serif;
     max-width: 10em;
     text-transform: uppercase;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     line-height: 1;
 }
 header a {
@@ -1342,12 +1342,12 @@ footer {
 @media (max-width: 550px) {
     
     main-head .white-box{
-        width: 90%;
+        width: 80%;
         height: 5em;
         background-color: white;
     } 
     main-head .red-box{
-        width: 90%;
+        width: 80%;
         height: 6em;
         background-color: #A9242B;
     }
