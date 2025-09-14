@@ -1250,13 +1250,18 @@ input:checked + .card {
     .head-line-container .sub-line {
         font-size: 2.5em;
     }
+    .testim {
+        top: 25%;
+    }
 }
 @media (max-width: 420px) {
     .aboveAll-sub-text {
-    font-size: 1.1em;
-}
+        font-size: 1.1em;
+    }
     .aboveAll-main-text {
         font-size: 2.5em;
-    
-}
+    }
+    .testim {
+        top: 26%;
+    }
 }
