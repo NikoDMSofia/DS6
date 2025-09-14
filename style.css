@@ -1142,6 +1142,7 @@ input:checked + .card {
     padding: 0 1em;
     font-size: 3em;
     color: white;
+    font-family: "Alumni Sans", sans-serif;
 }
 .readyToStart-button {
     color: white;
@@ -1152,6 +1153,7 @@ input:checked + .card {
     border-radius: 5px;
     padding: 1.6em;
     text-decoration: none;
+    
 }
 
 
