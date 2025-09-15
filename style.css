@@ -19,7 +19,7 @@ header {
 header .head-bg {
     height: 89vh;
     width: 100%;
-    background-image: url(images/1st-page/head/headerBG.png), url(images/1st-page/head/headerBG.png) ;
+    background-image: url(images/1st-page/head/headerBG.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -682,7 +682,7 @@ input:checked + .card {
 }
 
 .testim .cont div p {
-    font-size: 1.15em;
+    font-size: 1em;
     color: #eee;
     width: 80%;
     margin: auto;
