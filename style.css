@@ -57,13 +57,10 @@
     
     h3 {
         font-size: 13px;
-        line-height: 15px;
-        letter-spacing: 1px;
-        font-weight: 200;
+        line-height: 20px;
     }
     span {
         color: #A9242B;
-        letter-spacing: -1px;
     }
 }
 .title {
@@ -76,11 +73,10 @@
 .under-title {
     font-family: "Poppins", sans-serif;
     color: rgb(255, 255, 255);
-    max-width: 19em;
+    max-width: 19rem;
     padding-left: .3em;
     h5 {
         font-weight: 100;
-        line-height: 1.2;
     }
     
 }
