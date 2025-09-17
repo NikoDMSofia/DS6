@@ -53,13 +53,17 @@
     font-family: "Poppins", sans-serif;
     color: white;
     text-transform: uppercase;
+    margin-bottom: 2.5em;
     
     h3 {
         font-size: 13px;
         line-height: 15px;
+        letter-spacing: 1px;
+        font-weight: 200;
     }
     span {
         color: #A9242B;
+        letter-spacing: -1px;
     }
 }
 .title {
