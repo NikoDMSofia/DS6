@@ -71,6 +71,9 @@ nav .nav-bar .logo img{
     margin: 0 5px;
     list-style: none;
 }
+.bx {
+   font-size: 300px;
+}
 .nav-links li a{
     position: relative;
     font-size: 12px;
