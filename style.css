@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #18191A;
+    /* background-color: #18191A; */
 }
 
 
 
-.head-content{
+/* .head-content{
     background-image: url(headerBG.png);
     height: 800px;
     -o-backgound-size: cover;
@@ -26,18 +26,39 @@
     .head-content:after {
         content: '';
         background-position: inherit;
-        background-image: url(small.png);
         background-size: inherit;
         background-attachment: inherit;
         background-repeat: inherit;
         position: fixed;
         top: 0;
         z-index: -1;
-    }
-}
+        }
+        }
+        
+        
+            } */
+            
+.space {
+    height: 800px;
+}            
+.fixedBG {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 800px;
+    width: 100px;
+    background-color: red;
+    width: 100%;
+    background-image: url(small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 
+}
 .lorem {
     text-align: justify;
     padding: .5em;
+    background-color: black;
+    color: white;
 }
-
