@@ -53,6 +53,7 @@
     font-family: "Poppins", sans-serif;
     color: white;
     text-transform: uppercase;
+    
     h3 {
         font-size: 13px;
         line-height: 15px;
@@ -65,11 +66,18 @@
     font-family: "Alumni Sans", sans-serif;
     color: white;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2em;
+    max-width: 10em;
 }
 .under-title {
     font-family: "Poppins", sans-serif;
-    color: rgb(216, 207, 207);
+    color: rgb(255, 255, 255);
+    max-width: 19em;
+    padding-left: .3em;
+    h5 {
+        font-weight: 100;
+    }
+    
 }
 .btns {
     margin-top: 5em;
