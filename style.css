@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html, body{
-	width: 100%;
-	height: 100%;
     background-color: #18191A;
 }
 
@@ -14,7 +10,6 @@ html, body{
 .head-content{
     background-image: url(headerBG.png);
     height: 800px;
-    -webkit-backgound-size: cover;
     -o-backgound-size: cover;
     -moz-backgound-size: cover;
     background-size: cover;
@@ -22,6 +17,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
+    background-color: none;
     
 }
 
@@ -29,10 +25,8 @@ html, body{
 @media all and (max-width:1024px) {
     .head-content:after {
         content: '';
-        width: 100%;
-        height: 100%;
         background-position: inherit;
-        background-image: inherit;
+        background-image: url(small.png);
         background-size: inherit;
         background-attachment: inherit;
         background-repeat: inherit;
@@ -40,5 +34,10 @@ html, body{
         top: 0;
         z-index: -1;
     }
+}
+
+.lorem {
+    text-align: justify;
+    padding: .5em;
 }
 
