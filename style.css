@@ -146,6 +146,8 @@
         p {
             font-family: "Poppins", sans-serif;
             color: rgb(150, 150, 150);
+            padding: 3em;
+            font-size: 1em;
         }
     }
 
