@@ -288,6 +288,7 @@ input[type=submit]:hover {
 
 /* времвнно */
 massage-back {
+    font-family: "Alumni Sans", sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -296,8 +297,19 @@ massage-back {
     color: white;
     padding: 1em;
     text-align: center;
-    gap: 5em;
-    font-size: 1.2em;
+    font-size: 2em;
+    span {
+        color: #A9242B;
+    }
+    a {
+        margin-top: 2em;
+        font-size: 1.2rem;
+        text-decoration: none;
+        background-color:  #A9242B;
+        color: white;
+        padding: .8em 1.5em;
+        letter-spacing: 1px;
+    }
 }
 
 
