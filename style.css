@@ -64,6 +64,7 @@
     }
 }
 .title {
+    margin-bottom: .5em;
     font-family: "Alumni Sans", sans-serif;
     color: white;
     text-transform: uppercase;
@@ -72,7 +73,7 @@
 }
 .under-title {
     font-family: "Poppins", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.623);
     max-width: 19rem;
     padding-left: .3em;
     h5 {
@@ -113,6 +114,8 @@
     background-size: cover;
     z-index: -1;
 
+    border-image: fill 1 linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3));
+    
 }
 .lorem {
     text-align: justify;
