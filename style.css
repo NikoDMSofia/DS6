@@ -57,7 +57,7 @@
     
     h3 {
         font-size: 13px;
-        line-height: 20px;
+        line-height: 18px;
     }
     span {
         color: #A9242B;
@@ -82,11 +82,10 @@
 .under-title {
     font-family: "Poppins", sans-serif;
     color: rgba(255, 255, 255, 0.623);
-    max-width: 19rem;
+    max-width: 18rem;
     /* padding-left: .3em; */
     h5 {
         font-weight: 100;
-        font-size: 1em;
     }
     
 }
@@ -100,10 +99,10 @@
     text-transform: uppercase;
     border: 2px solid #A9242B;
     padding: 1.1em 2.5em;
-    background-color: #a9242b;
+    background-color:  #a9242b9c;
 }
 .btns a:hover{
-    background-color:  #a9242b9c;
+    background-color: #a9242b;
 }
 
 
