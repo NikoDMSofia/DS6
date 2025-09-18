@@ -50,10 +50,12 @@
     align-items: center;
 }
 .sub-title {
+    position: absolute;
+    top: 9.5%;
     font-family: "Poppins", sans-serif;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 2.5em;
+    /* margin-bottom: 11.4em; */
     
     h3 {
         font-size: 13px;
@@ -136,4 +138,11 @@
     padding: .5em;
     background-color: black;
     color: white;
+}
+
+@media (min-width: 430px) {
+    .head-content {
+        display: block;
+        padding: 10.5%;
+    }
 }
