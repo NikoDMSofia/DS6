@@ -148,9 +148,8 @@ body {
     p {
         font-family: "Poppins", sans-serif;
         color: rgb(150, 150, 150);
-        padding: 1.7em;
-        font-size: 1.55em;
-        text-align: justify;
+        padding: 3.1em;
+        font-size: 1em;
     }
 }
 
