@@ -6,6 +6,9 @@
     box-sizing: border-box;
     /* background-color: #18191A; */
 }
+body {
+    background-color: #18191A;
+}
 
 
 
@@ -124,7 +127,6 @@
     left: 0;
     height: 800px;
     width: 100px;
-    background-color: red;
     width: 100%;
     background-image: url(small.png);
     background-repeat: no-repeat;
@@ -139,19 +141,37 @@
 
 
 .about-trainer {
-        background-color: #18191A;
+    background-color: #18191A;
+}
+.trainer-about {
+    text-align: center;
+    p {
+        font-family: "Poppins", sans-serif;
+        color: rgb(150, 150, 150);
+        padding: 1.7em;
+        font-size: 1.55em;
+        text-align: justify;
     }
-    .trainer-about {
-        text-align: center;
-        p {
-            font-family: "Poppins", sans-serif;
-            font-family: "Alumni Sans", sans-serif;
-            color: rgb(150, 150, 150);
-            padding: 1.7em;
-            font-size: 1.55em;
-            text-align: justify;
-        }
+}
+
+.head-line-container {
+    background-color: #18191A;
+    font-family: "Alumni Sans", sans-serif;
+    text-align: center;
+    padding: 2em 0;
+    .sub-line {
+        color: #A9242B;
+        font-size: 2.5em;
+        font-weight: 800;
+        margin-bottom: -.3em;
     }
+    .head-line {
+        font-size: 3em;
+        font-weight: 800;
+        -webkit-text-stroke: .3px white;
+        color: #18191A;
+    }
+}
 
 
 
