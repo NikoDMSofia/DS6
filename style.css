@@ -121,7 +121,7 @@
     background-size: cover;
     z-index: -1;
 
-    border-image: fill 1 linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3));
+    border-image: fill 1 linear-gradient(hsl(240 100% 50% / .1), hsl(0 100% 50% / .1));
     
 }
 .lorem {
