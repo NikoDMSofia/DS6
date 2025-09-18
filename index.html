@@ -133,6 +133,41 @@
         <br>
     </div>
 
+
+
+    <footer>
+        <div class="contact-form-container">
+            <form action="https://formsubmit.co/2d86b1ec36f969129ffd81d3479b5f07" method="POST">
+                <label for="fname">First Name</label>
+                <!-- Honeypot -->
+                 <input type="text" name="_honey" style="display: none;">
+                 <!-- Disable Captcha -->
+                  <input type="hidden" name="_captcha" value="false">
+
+                  <input type="hidden" name="_next" id="" value="https://nikodmsofia.github.io/DST/HTML/success.html">
+
+                <input type="text" id="fname" name="first&nbsp;name" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last&nbsp;name" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="bulgaria">Bulgaria</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </footer>
+
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
     <script>
     const body = document.querySelector("body"),
