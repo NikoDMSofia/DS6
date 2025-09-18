@@ -76,9 +76,10 @@
         color: rgb(255, 255, 255);
   /* background: -webkit-linear-gradient(#eee, #333); */
   /* background: -webkit-linear-gradient( #333, #eee); */
-  /* background: -webkit-linear-gradient( #A9242B, #eee  ); */
+  /* background: -webkit-linear-gradient(  hsl(0 100% 50% / .3), hsl(240 100% 50% /.3 )); */
   /* -webkit-background-clip: text; */
   /* -webkit-text-fill-color: transparent; */
+  /* -webkit-text-stroke: .29px rgb(255, 255, 255); */
     }
 }
 .under-title {
@@ -133,16 +134,40 @@
     border-image: fill 1 linear-gradient(hsl(240 100% 50% / .1), hsl(0 100% 50% / .1));
     
 }
+
+
+
+
+.about-trainer {
+        background-color: #18191A;
+    }
+    .trainer-about {
+        text-align: center;
+        p {
+            font-family: "Poppins", sans-serif;
+            color: rgb(150, 150, 150);
+        }
+    }
+
+
+
+
+
+
 .lorem {
     text-align: justify;
     padding: .5em;
     background-color: black;
     color: white;
+    
 }
 
-@media (min-width: 430px) {
+
+
+
+/* @media (min-width: 430px) {
     .head-content {
         display: block;
         padding: 10.5%;
     }
-}
+} */
