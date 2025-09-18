@@ -177,6 +177,62 @@ body {
 }
 
 
+.privet-gym-online-sections {
+    /* margin-top: 3em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #18191A;
+}
+.privet-gym-online-sections section{
+    height: 20em;
+    width: 22em;
+}
+.privet-gym-online-sections .online{
+    background-image: url(images/online.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon {
+  --f: .5em; /* control the folded part */
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1.8;
+  padding-inline: 1lh;
+  padding-bottom: var(--f);
+  border-image: conic-gradient(#0008 0 0) 51%/var(--f);
+  clip-path: polygon(
+    100% calc(100% - var(--f)),100% 100%,calc(100% - var(--f)) calc(100% - var(--f)),var(--f) calc(100% - var(--f)), 0 100%,0 calc(100% - var(--f)),999px calc(100% - var(--f) - 999px),calc(100% - 999px) calc(100% - var(--f) - 999px));
+  transform: translate(calc((cos(45deg) - 1)*100%), -100%) rotate(-45deg);
+  transform-origin: 100% 100%;
+  background-color: #A9242B; /* the main color  */
+}
+.privet-gym-online-sections .gym{
+    background-image: url(images/atGym.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.privet-gym-online-sections .privet{
+    background-image: url(images/atHome.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
 
 
 
