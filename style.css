@@ -70,14 +70,23 @@
     text-transform: uppercase;
     font-size: 2em;
     max-width: 10em;
+    h1 {
+        color: rgb(255, 255, 255);
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  /* background: -webkit-linear-gradient( #333, #eee); */
+  /* background: -webkit-linear-gradient( #A9242B, #eee  ); */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+    }
 }
 .under-title {
     font-family: "Poppins", sans-serif;
     color: rgba(255, 255, 255, 0.623);
     max-width: 19rem;
-    padding-left: .3em;
+    /* padding-left: .3em; */
     h5 {
         font-weight: 100;
+        font-size: 1em;
     }
     
 }
