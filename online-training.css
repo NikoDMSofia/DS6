@@ -18,19 +18,21 @@ img {
 
 
 online-training-container {
-    height: 800px;
+    height: 350px;
     
 }
 
 
 .online-header {
+    margin-top: 6em;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/online-video.png);
+    background-image: url(istockphoto-1176295972-612x612.jpg);
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: contain;
 
 }
 
@@ -38,8 +40,11 @@ online-training-container {
     font-family: "Alumni Sans", sans-serif;
     color: white;
     text-transform: uppercase;
-    font-size: 1.5em;
-    max-width: 15em;
+    h1 {
+        font-size: 1.5em;
+        max-width: 10em;
+        text-align: center;
+    }
 }
 
 
