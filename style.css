@@ -190,12 +190,39 @@ body {
     height: 20em;
     width: 22em;
 }
+
 .privet-gym-online-sections .online{
     background-image: url(images/online.png);
     background-size: cover;
     background-position: center;
     position: relative;
+    transition: 0.3s;
 }
+.privet-gym-online-sections .online::before{
+    content: "";
+    inset: 0;
+    background-color: rgba(255, 0, 0, 0.233);
+    position: absolute;
+    opacity: 1;
+    transition: .3s;
+}
+.privet-gym-online-sections .online:hover::before{
+    opacity: 0;
+}
+
+.privet-gym-online-sections .gym{
+    background-image: url(images/atGym.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.privet-gym-online-sections .privet{
+    background-image: url(images/atHome.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 /* HTML: <div class="ribbon">Your text content</div> */
 .ribbon {
     font-size: 1em;
@@ -217,18 +244,6 @@ body {
   transform: translate(calc((cos(45deg) - 1)*100%), -100%) rotate(-45deg);
   transform-origin: 100% 100%;
   background-color: #A9242B; /* the main color  */
-}
-.privet-gym-online-sections .gym{
-    background-image: url(images/atGym.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-.privet-gym-online-sections .privet{
-    background-image: url(images/atHome.png);
-    background-size: cover;
-    background-position: center;
-    position: relative;
 }
 
 
