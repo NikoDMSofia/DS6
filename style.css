@@ -129,7 +129,7 @@ a {
     height: 800px;
     width: 100px;
     width: 100%;
-    background-image: url(small.png);
+    background-image: url(images/small.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
