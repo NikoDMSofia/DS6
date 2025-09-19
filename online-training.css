@@ -33,19 +33,20 @@ online-training-container {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
-    border-image: fill 1 linear-gradient(hsl(240 100% 50% / .3), hsl(0 100% 50% / .3));
+    border-image: fill 1 linear-gradient( hsl(0 100% 50% / .15), hsl(240 100% 50% / .15));
     
 }
 
 .online-title {
     font-family: "Alumni Sans", sans-serif;
     color: white;
-    text-transform: uppercase;
     /* position: relative; */
     h1 {
-        letter-spacing: 1px;
-        font-size: 1.5em;
+        font-size: 2em;
         position: absolute;
+        line-height: 1.1;
+        text-align: center;
+
     }
 }
 
