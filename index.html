@@ -75,7 +75,7 @@
             </section>
         </a>
         
-        <a href="#">
+        <a href="HTML/inTheGym.html">
             <section class="online online-container gym">
                 <div class="team online-label ribbon ">В ЗАЛАТА</div>
                 <div class="button"><h1>НАУЧИ ПОВЕЧЕ</h1></div>
@@ -139,22 +139,7 @@
     </footer>
 
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
-    <script>
-    const body = document.querySelector("body"),
-        nav = document.querySelector("nav"),
-        sidebarOpen = document.querySelector(".sidebarOpen"),
-        siderbarClose = document.querySelector(".siderbarClose");
-      
-        sidebarOpen.addEventListener("click" , () =>{
-        nav.classList.add("active");
-    });
-
-body.addEventListener("click" , e =>{
-    let clickedElm = e.target;
-    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
-        nav.classList.remove("active");
-    }
-});
-    </script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
