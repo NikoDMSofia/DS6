@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav-bar.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-bar">
+            
+            <img style="width: 100px;"  src="DS-Logo-red.png">
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#"><img src="images/LOGO/DS-Logo-red.png" alt=""></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">начало</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">график</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">контакт</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <i style="font-size: 3rem;" class='bx bx-menu sidebarOpen' ></i>
+                
+            </div>
+        </div>
+    </nav>
+    
+<div class="space">
+    <div class="head-content flex-center">
+                <div class="head-title head-sub-title head-btn ">
+                    <div class="sub-title"><h3>дамян светиев <br> <span>професионален треньор</span></h3></div>
+                    <div class="title"><h1>  започни промяната си още днес! </h1></div>
+                    <div class="under-title"><h5>Ако искаш нещо, което никога не си имал, трябва да си готов да направиш нещо, което никога не си правил.</h5></div>
+                    <div class="btns">
+                        <a href="#" class="haed-btn">запиши час</a>
+                    </div> 
+                </div>
+            </div>
+</div>
+<div class="fixedBG"></div>
+    <header>
+        <div class="head-bg">
+            
+        </div>
+    </header>
+
+
+    <section class="about-trainer">
+        <div class="trainer-about">
+            <p>Дамянски Светиев предлага на клиентите си лукса на персонализирано здраве  от комфорта и безопасността на техния дом, онлайн или фитнес зала. Целите на всеки клиент се оценяват детайлно. Това позволява  персонализиран подход, който е едновременно безопасен и ефективен, така че да надминем целите на всеки клиент.</p>
+        </div>
+    </section>
+
+
+    <div class="head-line-container">
+        <div class="sub-line">ВИНАГИ ЗАЕДНО!</div>
+        <div class="head-line">КЪДЕТО И ДА СИ</div>
+    </div> 
+
+    <div class="privet-gym-online-sections">
+        <a href="online-training.html">
+            <section class="online online-container">
+                <div class="team online-label ribbon ">ОНЛАЙН</div>
+                <div class="button"><h1>НАУЧИ ПОВЕЧЕ</h1></div>
+            </section>
+        </a>
+        
+        <a href="#">
+            <section class="online online-container gym">
+                <div class="team online-label ribbon ">В ЗАЛАТА</div>
+                <div class="button"><h1>НАУЧИ ПОВЕЧЕ</h1></div>
+            </section>
+        </a>
+        <section class="online online-container privet">
+                <div class="team online-label ribbon ">ЧАСТЕН ДОМ</div>
+                <div class="button"><h1>научи повече</h1></div>
+            </section>
+    </div> 
+    
+    
+    
+    
+    <div class="lorem">
+        <br>
+        <p>Този текст е временен, докато не бъде заменен с компонентите на DS-Training. Благодарим ви за търпението!</p>
+        <br>
+        <p style="color: #A9242B;">Ако желаете да се свържете с DS-Training, формата за контакт по-долу е активна и нашият временен телефонен номер е на ваше разположение.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Този текст е временен, докато не бъде заменен с компонентите на DS-Training. Благодарим ви за търпението!</p>
+        <br>
+        <p style="color: #A9242B;">Ако желаете да се свържете с DS-Training, формата за контакт по-долу е активна и нашият временен телефонен номер е на ваше разположение.</p>
+        <br>
+    </div>
+
+
+    <div class="extra-tel">0877213979</div>
+    
+    <footer>
+        <div class="contact-form-container">
+            <form action="https://formsubmit.co/2d86b1ec36f969129ffd81d3479b5f07" method="POST">
+                <!-- Honeypot -->
+                 <input type="text" name="_honey" style="display: none;">
+                 <!-- Disable Captcha -->
+                  <input type="hidden" name="_captcha" value="false">
+
+                  <input type="hidden" name="_next" id="" value="https://nikodmsofia.github.io/DS6/succes.html">
+
+                <input type="text" id="fname" name="Имена" placeholder="Имена.." required>
+
+                <input type="tel" id="phone" name="phone"  placeholder="Тел. номе" required>
+
+                <textarea id="subject" name="subject" placeholder="С какво може да сме Ви полезни?.." style="height:200px" required></textarea>
+
+                <input type="submit" value="Изпрати" required>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    <script>
+    const body = document.querySelector("body"),
+        nav = document.querySelector("nav"),
+        sidebarOpen = document.querySelector(".sidebarOpen"),
+        siderbarClose = document.querySelector(".siderbarClose");
+      
+        sidebarOpen.addEventListener("click" , () =>{
+        nav.classList.add("active");
+    });
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+    </script>
+</body>
+</html>
