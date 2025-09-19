@@ -43,7 +43,7 @@ online-training-container {
 }
 
 
-.online-main-container {
+.online-main-container section {
     display: flex;
     justify-content: center;
     align-items: left;
@@ -69,6 +69,7 @@ online-main-text {
     margin-bottom: 1em;
     p {
         color: rgb(150, 150, 150);
+        text-align: justify;
 
     }
 }
