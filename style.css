@@ -184,7 +184,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     background-color: #18191A;
 }
 .privet-gym-online-sections section{
@@ -197,22 +197,21 @@ a {
     background-size: cover;
     background-position: center;
     position: relative;
-    transition: 0.3s;
     
     display: flex;
     justify-content: center;
     align-items: flex-end;
     
     h1 {
+        margin-bottom: 1em;
         font-family: "Poppins", sans-serif;
         font-size: .8em;
         font-weight: 200;
         color: white;
-        background-color: #a9242b85;
-        padding: 1em 0;
+        background-color: #a9242b;
+        padding: 1em 01.2em;
         letter-spacing: 1px;
         text-transform: uppercase;
-        width: 27.5em;
         text-align: center;
     }
 
@@ -239,7 +238,8 @@ a {
 }
 .ribbon {
     --f: .5em; /* control the folded part */
-    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     position: absolute;
     top: 0;
   left: 0;

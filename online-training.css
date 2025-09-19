@@ -28,9 +28,9 @@ online-training-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/online-training.png);
+    background-image: url(images/online-video.png);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top center;
 
 }
 
