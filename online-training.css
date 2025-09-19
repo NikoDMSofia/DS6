@@ -12,10 +12,14 @@
     transition: all 0.4s ease;;
     /* font-family: "Lato", sans-serif; */
 }
+img {
+    width: 100%;
+}
 
 
 online-training-container {
     height: 800px;
+    
 }
 
 
@@ -36,4 +40,35 @@ online-training-container {
     text-transform: uppercase;
     font-size: 1.5em;
     max-width: 15em;
+}
+
+
+.online-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 2em;
+}
+
+online-main-title {
+    margin-bottom: 1em;
+    h1 {
+        font-family: "Alumni Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.7em;
+        letter-spacing: 1px;
+        color: white;
+        span {
+            color: #A9242B;
+        }
+    }
+}
+
+online-main-text {
+    margin-bottom: 1em;
+    p {
+        color: rgb(150, 150, 150);
+
+    }
 }
