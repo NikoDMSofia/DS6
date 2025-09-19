@@ -18,28 +18,36 @@ img {
 
 
 online-training-container {
-    height: 800px;
+    height: 280px;
     
 }
 
 
 .online-header {
+    margin-top: 6em;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/online-video.png);
+    background-image: url(../istockphoto-1176295972-612x612.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-
+    background-size: contain;
+    border-image: fill 1 linear-gradient( hsl(0 100% 50% / .15), hsl(240 100% 50% / .15));
+    
 }
 
 .online-title {
     font-family: "Alumni Sans", sans-serif;
     color: white;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    max-width: 15em;
+    /* position: relative; */
+    h1 {
+        font-size: 2em;
+        position: absolute;
+        line-height: 1.1;
+        text-align: center;
+
+    }
 }
 
 
