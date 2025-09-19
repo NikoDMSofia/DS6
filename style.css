@@ -211,7 +211,8 @@ a {
         font-weight: 200;
         color: white;
         background-color: #a9242b;
-        padding: 1.2em;
+        padding: 1.1em;
+        border-radius: 1.2em;
         text-transform: uppercase;
     }
 
