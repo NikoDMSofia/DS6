@@ -203,7 +203,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 2em;
     
     h1 {
         font-family: "Poppins", sans-serif;
@@ -211,8 +210,11 @@ a {
         font-weight: 200;
         color: white;
         background-color: #a9242b;
-        padding: 1.2em;
+        padding: 1em 0;
+        letter-spacing: 1px;
         text-transform: uppercase;
+        width: 27.5em;
+        text-align: center;
     }
 
 }
