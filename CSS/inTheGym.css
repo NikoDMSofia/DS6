@@ -72,7 +72,7 @@ in-the-gym-heading {
 .middle-line-container {
     display: grid;
     grid-template-columns: 200px 1px 200px;
-    padding: 2em 1em;
+    padding: 2em 0em;
 }
 
 .middle-line-container .box-2 {
@@ -101,13 +101,16 @@ in-the-gym-heading {
     justify-content: center;
     align-items: center;
     height: 10em;
-    padding: 1em;
+    padding: 1em 1em 1em 0;
     text-align: center;
     font-family: "Poppins", sans-serif;
     line-height: 1em;
     color: rgba(240, 248, 255, 0.452);
+    width: 100%;
+    border: .03px solid red;
     p {
         font-size: 1em;
+        padding: 0 1em  ;
     }
 }
 
