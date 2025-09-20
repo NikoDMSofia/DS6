@@ -90,13 +90,18 @@ in-the-gym-heading {
 .middle-line-container .box-one {
 }
 .middle-line-container .cyrcle-one {
-    margin-top: 10em;
+    margin-top: 5em;
 }
 .middle-line-container .cyrcle-two {
     margin-top: 10em;
 }
-.middle-line-container .cyrcle-three {
-    padding: ;
+.middle-line-container .box-1-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    padding: 1em;
+    text-align: center;
 }
 
 .red {
