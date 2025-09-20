@@ -32,7 +32,7 @@ in-the-gym-heading {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    border-image: fill 1 linear-gradient( hsl(0 100% 50% / .10), hsl(240 100% 50% / .5));
+    border-image: fill 1 linear-gradient( hsl(0 100% 50% / .10), hsl(240 100% 50% / .4));
 
     .in-the-gym-title {
         font-family: "Alumni Sans", sans-serif;
@@ -46,7 +46,7 @@ in-the-gym-heading {
             position: absolute;
             line-height: 1.1;
             text-align: left;
-            padding: 0 1em 1em .5em;
+            padding: .5em 1em 1em .5em;
             border-left: 1px solid #A9242B;
             /* background-color: #A9242B; */
             width: 100%;
