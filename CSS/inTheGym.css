@@ -114,3 +114,24 @@ in-the-gym-heading {
     }
 }
 
+.ready-to-start {
+    height: 10em;
+    background-image: url(../images/personal/head.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: white;
+        font-family: "Alumni Sans", sans-serif;
+    }
+}
+
+
+.lorem {
+    color: black;
+}
+
