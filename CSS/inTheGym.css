@@ -53,3 +53,59 @@ in-the-gym-heading {
         }
     }
 }
+
+/* .container {
+  width: 100px;
+  height: 10px;
+  background-color: rgb(128, 15, 15);
+}
+.circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: solid 10px rgb(235, 14, 14);
+  border-radius: 50%;
+} */
+
+.middle-line-container {
+    display: grid;
+    grid-template-columns: 200px 1px 200px;
+    padding: 2em 1em;
+}
+
+.middle-line-container .box-2 {
+    border: .01em solid #A9242B;
+    height: 100vh;
+    position: relative;
+}
+.middle-line-container .box-2 .cyrcle {
+    width: 10px;
+    height: 10px;
+    background-color: #A9242B;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+.middle-line-container .box-one {
+}
+.middle-line-container .cyrcle-one {
+    margin-top: 10em;
+}
+.middle-line-container .cyrcle-two {
+    margin-top: 10em;
+}
+.middle-line-container .cyrcle-three {
+    padding: ;
+}
+
+.red {
+    border: .03px solid red;
+    
+}
+.blue {
+    border: 1px solid blue;
+}
+.yellow {
+    border: 1px solid yellow;
+}
