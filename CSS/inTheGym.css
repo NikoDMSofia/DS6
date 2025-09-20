@@ -91,7 +91,7 @@ in-the-gym-heading {
     background-color: transparent;
 }
 .middle-line-container .cyrcle-one {
-    margin-top: 5em;
+    margin-top: 4.5em;
 }
 .middle-line-container .cyrcle-two {
     margin-top: 10em;
@@ -107,20 +107,9 @@ in-the-gym-heading {
     line-height: 1em;
     color: rgba(240, 248, 255, 0.452);
     width: 100%;
-    border: .03px solid red;
     p {
         font-size: 1em;
         padding: 0 1em  ;
     }
 }
 
-.red {
-    border: .03px solid red;
-    
-}
-.blue {
-    border: 1px solid blue;
-}
-.yellow {
-    border: 1px solid yellow;
-}
