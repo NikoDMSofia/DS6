@@ -42,11 +42,12 @@ in-the-gym-heading {
             margin: 0 -.1em;
         }
         h1 {
+            margin-left: .15em;
             font-size: 2em;
             position: absolute;
             line-height: 1.1;
             text-align: left;
-            padding: .5em 1em 1em .5em;
+            padding: .5em 1em 1em .3em;
             border-left: 1px solid #A9242B;
             /* background-color: #A9242B; */
             width: 100%;
@@ -71,7 +72,7 @@ in-the-gym-heading {
 
 .middle-line-container {
     display: grid;
-    grid-template-columns: 200px 1px 200px;
+    grid-template-columns: 210px 1px 215px;
     padding: 2em 0em;
 }
 
