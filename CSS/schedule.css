@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.training_container {
+    text-align: center;
+    padding: 5em 0 0 0;
+    border: 1px solid red;
+}
+
+.head_title {
+    margin-bottom: 5em;
+    span {
+        font-weight: 100;
+    }
+    
+}
+
+
+.september_sheduel {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex-inline {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    color: black;
+}
+.flex-inline:hover {
+    background-color:rgba(177, 133, 177, 0.226);
+    
+}
+.flex-inline:last-child {
+    border: none;
+}
+
+.data {
+    height: 50px;
+    flex: 1;
+    border: 1px solid rgba(177, 133, 177, 0.226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover {
+    color: blue;
+}
+.marginBtm {
+    margin-bottom:.3em ;
+}
+.margin-line {
+    margin-bottom: 0;
+}
+
+
+.backG {
+    background-color: rgb(183, 100, 183);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+    .flex-inline {
+        width: 80%;
+    }
+}
+@media (max-width: 650px) {
+    .flex-inline {
+        width: 90%;
+    }
+}
+@media (max-width: 450px) {
+    .flex-inline {
+        width: 95%;
+    }
+}
