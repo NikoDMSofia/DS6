@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "Lato", sans-serif; */
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s ease;;
+    /* font-family: "Lato", sans-serif; */
+}
+img {
+    width: 100%;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(../images/whyMe/head.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image: fill 1 linear-gradient( #060b2dbe, #a9242b88);
+}
+.header-box-center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.header-container .logo-name-container {
+    img{
+        width: 150px;
+    }
+    border: 1px solid black;
+}
