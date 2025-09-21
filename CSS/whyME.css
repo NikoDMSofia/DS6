@@ -116,24 +116,25 @@ img {
 .lose-weight-content h1 {
     font-family: "Alumni Sans", sans-serif;
     text-transform: uppercase;
-    font-size: 3.5em;
-    line-height: 50px;
+    font-size: 2.5em;
+    line-height: 35px;
     color: white;
     /* margin: 1em; */
     position: relative;
-    padding:  0 .25em;
+    padding:  0 .3em;
     min-width: 5.8em;
 }
 .lose-weight-content h1::before {
     content: "";
-    width: 10px;
-    height: 35px;
+    width: 5px;
+    height: 30px;
     background-color: #A9242B;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    transform: skew(20deg);
 }
 
 .lose-weight-content p {
