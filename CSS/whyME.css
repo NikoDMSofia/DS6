@@ -32,18 +32,18 @@ img {
 
 .header-container .logo-name-container {
     position: absolute;
-    top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 
     img{
-        width: 100px;
+        width: 80px;
     }
     .name {
         text-transform: uppercase;
         font-family: "Alumni Sans", sans-serif;
         color: #A9242B;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: 600;
         margin-top: -.8em;
     }
@@ -52,9 +52,9 @@ img {
     color: white;
     text-transform: uppercase;
     font-family: "Alumni Sans", sans-serif;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 55px;
-    margin: 1.5em 0 1em 0;
+    margin: 0em 0 .6em 0;
     
     span  {
         color: #A9242B;
@@ -63,7 +63,7 @@ img {
 .header-container .sub-title p{
     color: white;
     font-family: "Piedra", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     width: 19em;
     font-weight: 100;
