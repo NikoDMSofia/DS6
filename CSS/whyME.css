@@ -17,11 +17,11 @@ img {
 
 .header {
     height: 800px;
-    /* background-image: url(../images/whyMe/bigger.png); */
+    background-image: url(../images/whyMe/bigger.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-image: fill 1 linear-gradient( #060b2dbe, #060b2dbe, #a9242b88);
+    border-image: fill 1 linear-gradient( #060b2d77, #060b2dbe, #a9242b88);
     text-align: center;
 }
 .header-box-center-flex {
@@ -34,7 +34,7 @@ img {
 .header-container .logo-name-container {
 
     img{
-        width: 80px;
+        width: 100px;
     }
     .name {
         text-transform: uppercase;
@@ -51,7 +51,7 @@ img {
     font-family: "Alumni Sans", sans-serif;
     font-size: 5em;
     line-height: 55px;
-    margin: 1em 0 .8em 0;
+    margin: 2em 0 .8em 0;
     
     span  {
         color: #A9242B;
@@ -64,6 +64,7 @@ img {
     letter-spacing: 1px;
     width: 19em;
     font-weight: 100;
+    margin-bottom: 4em;
 }
 
 /* main */
