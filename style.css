@@ -344,9 +344,9 @@ massage-back {
 
 
 
-/* @media (min-width: 430px) {
-    .head-content {
-        display: block;
-        padding: 10.5%;
+@media (min-width: 430px) {
+    body {
+        display: none;
     }
-} */
+    
+}
