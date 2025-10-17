@@ -16,64 +16,87 @@ font-family: "Poppins", sans-serif;
   padding: 0;
 }
 
-.hero-container {
-  /* background-image: url(../images/PT_Cornerstone_image_CUT.png);
-  background-repeat: no-repeat;
-  background-position: center 150px; */
-  background-size: 150px;
-  height: 100dvh;
-  padding: 25dvh 40px;
-  border: 1px solid yellow;
-  border-image: fill 1 linear-gradient( hsla(264, 100%, 1%, 0.473));
+img {
+  width: 100%;
 }
 
-.hero-content {
+.hero-container {
+margin: auto auto;
+  padding: 0 30px;
+  height: 100dvh;
+
   display: flex;
-  flex-direction: column;
-  height: 75dvh;
-  .top {
-    h2 {
-      font-family: "Alumni Sans", sans-serif;
-      color: white;
-      text-transform: uppercase;
-      font-size: 3rem;
-      font-weight: 100;
+  align-items: center;
+  justify-content: center;
+
+  .hero-content {
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    text-transform: uppercase;
+    .top {
+      h2 {
+        font-size: 3.5rem;
+        font-weight: 100;
+      }
+      h1 {
+        margin-top: -1.2rem;
+        font-size: 4rem;
+
+        span {
+          color: #a9242b;
+        }
+      }
     }
-    h1 {
-      font-family: "Alumni Sans", sans-serif;
-      color: white;
-      text-transform: uppercase;
-      font-size: 3.9rem;
-      font-weight: 500;
-      span {
-        color: #a9242b;
+    .middle {
+        margin: 1.5rem 0 7rem 0;
+      p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        text-transform: none;
+        width: 20rem;
+      }
+    }
+    .bottom {
+      a {
+        font-family: "Poppins", sans-serif;
+        background-color: #a9242b;
+        padding: 0.8rem 1.2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 1px;
       }
     }
   }
-  .middle {
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    font-weight: 100;
-    color: white;
-    margin: 1rem 0 5rem 0;
-    width: 20rem;
-  }
-  .bottom {
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      font-family: "Poppins", sans-serif;
-      color: white;
-      font-size: 0.8rem;
-      background-color: #a9242b;
-      padding: 0.8rem 1.2rem;
-      border-radius: 5px;
-    }
-  }
 }
 
-/* @media (min-width: 600px) {
-    .hero-container {
-        background-image: url(../images/PT_Cornerstone_image_CUT.png);
-    }
-} */
+.hero-container img {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100dvw;
+  }
+  .grid-boxes {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content {
+    border: 1px solid yellow;
+  }
+
+  .hero-container img {
+    display: block;
+    border: 1px solid yellow;
+  }
+}
