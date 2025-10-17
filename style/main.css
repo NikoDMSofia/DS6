@@ -96,6 +96,29 @@ img {
   }
 }
 
+
+
+/* MAIN */
+
+.main-container {
+  padding: 30px;
+
+  .main-head-title {
+    font-family: "Alumni Sans", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    h1 {
+      width: 20rem;
+      font-size: 4rem;
+      line-height:3.5rem;
+      color: white;
+      span {
+        color: #a9242b;
+      }
+    }
+  }
+}
 /* .wrapper {
   color: #a9242b;
   padding: 2rem;
