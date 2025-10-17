@@ -166,11 +166,6 @@ nav {
   }
 }
 @media (min-width: 920px) {
-  .head-container {
-    background-image: url(../images/trainer.png);
-    background-repeat: no-repeat;
-    background-position: center left 80%;
-  }
   .sidebar {
     width: 420px;
     min-height: 100vh;
