@@ -17,12 +17,14 @@ font-family: "Poppins", sans-serif;
 }
 
 .hero-container {
-    background-image: url(../images/PT_Cornerstone_image_CUT.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
+  /* background-image: url(../images/PT_Cornerstone_image_CUT.png);
+  background-repeat: no-repeat;
+  background-position: center 150px; */
+  background-size: 150px;
   height: 100dvh;
   padding: 25dvh 40px;
   border: 1px solid yellow;
+  border-image: fill 1 linear-gradient( hsla(264, 100%, 1%, 0.473));
 }
 
 .hero-content {
@@ -41,7 +43,7 @@ font-family: "Poppins", sans-serif;
       font-family: "Alumni Sans", sans-serif;
       color: white;
       text-transform: uppercase;
-      font-size: 3.5rem;
+      font-size: 4rem;
       font-weight: 500;
       span {
         color: #a9242b;
@@ -51,6 +53,7 @@ font-family: "Poppins", sans-serif;
   .middle {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
+    font-weight: 100;
     color: white;
     margin: 1rem 0 5rem 0;
     width: 20rem;
@@ -68,7 +71,6 @@ font-family: "Poppins", sans-serif;
     }
   }
 }
-
 
 /* @media (min-width: 600px) {
     .hero-container {
