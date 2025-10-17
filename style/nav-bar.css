@@ -108,7 +108,7 @@ input:checked {
   background-image: url(../images/download.jpg);
   background-size: 220%;
   border-image: fill 1
-    linear-gradient(-90deg, hsla(357, 65%, 40%, 0.5), hsl(222, 100%, 2%));
+    linear-gradient(-90deg, hsla(357, 65%, 40%, 0.5));
   background-position: center;
   background-repeat: no-repeat;
   text-align: right;
@@ -137,6 +137,7 @@ input:checked {
   width: 100px;
   margin: 20px 10px;
   position: fixed;
+  z-index: 1;
 }
 nav {
   overflow: auto;
@@ -165,6 +166,11 @@ nav {
   }
 }
 @media (min-width: 920px) {
+  .head-container {
+    background-image: url(../images/trainer.png);
+    background-repeat: no-repeat;
+    background-position: center left 80%;
+  }
   .sidebar {
     width: 420px;
     min-height: 100vh;
