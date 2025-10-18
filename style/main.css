@@ -21,6 +21,9 @@ img {
 }
 
 .hero-container {
+  background-image: url(../images/funnyBG.png);
+  background-position: center;
+  background-size: cover ;
   padding: 30px;
   text-align: center;
   height: 100dvh;
