@@ -1,12 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #F77E2D;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 
 body {
-    padding: 30px;
+  padding: 30px;
+
+  background-color: #151824;
+}
+/* background-color: #F77E2D; */
+
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .8px;
 }
